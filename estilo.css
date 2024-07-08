@@ -52,7 +52,7 @@ html {
             content:"";
             position:absolute;
             top:50%;
-            left:50%;
+            left:40%;
             transform:translate(-50%,-50%);
             opacity:0;
             border-radius:50%;
@@ -66,7 +66,7 @@ html {
             color: #777;
             letter-spacing:50rem;
             overflow: hidden;
-             transition: all.5s;
+             transition: letter-spacing.5s,left.5s;
         }
 
         .navegacao  a:hover::before {
@@ -77,3 +77,22 @@ html {
             opacity:.7;
             letter-spacing: 1rem;
                 }
+
+        .navegacao a:nth-child(1)::before {
+            background-color:#f94144 ;
+        }
+        .navegacao a:nth-child(2)::before {
+            background-color:#f3722c ;
+        }
+        .navegacao a:nth-child(3)::before {
+            background-color:#f8961e ;
+        }
+        .navegacao a:nth-child(4)::before {
+            background-color:#f9c74f ;
+        }
+        .navegacao a:nth-child(5)::before {
+            background: color #90be6d;
+        }
+        .navegacao a:nth-child(6)::before {
+            background-color:#43aa8b ;
+        }
